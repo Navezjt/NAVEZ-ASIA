@@ -52,7 +52,7 @@ jobs:
          cat tw.m3u >> IPTV.m3u
          cat iptv-org.m3u >> IPTV.m3u
          sed -i '/#EXTM3U/d' IPTV.m3u
-         sed -i '1i #EXTM3U x-tvg-url="https://gohhh1234.github.io/iptv/EPG.xml,https://gohhh1234.github.io/iptv/EPG-1.xml,https://gohhh1234.github.io/iptv/EPG-2.xml,https://gohhh1234.github.io/iptv/EPG-3.xml"' IPTV.m3u
+         sed -i '1i #EXTM3U x-tvg-url="https://Navezjt.github.io/NAVEZ-ASIA/EPG.xml,https://Navezjt.github.io/NAVEZ-ASIA/EPG-1.xml,https://Navezjt.github.io/NAVEZ-ASIA/EPG-2.xml,https://Navezjt.github.io/NAVEZ-ASIA/EPG-3.xml"' IPTV.m3u
     
     - name: EPG
       run: |        
